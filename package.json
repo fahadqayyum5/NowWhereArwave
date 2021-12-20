@@ -1,0 +1,27 @@
+{
+  "name": "arweaveuploadfiles",
+  "version": "0.0.1",
+  "description": "upload files to arweave and fetch arweave balance",
+  "main": "server.js",
+  "dependencies": {
+    "@azure/identity": "^1.5.1",
+    "@azure/keyvault-secrets": "^4.3.0",
+    "@onflow/fcl": "0.0.77",
+    "@onflow/sdk": "0.0.55",
+    "@onflow/types": "0.0.5",
+    "arweave": "^1.10.16",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.17",
+    "sha3": "^2.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "TroonTechnologies",
+  "license": "ISC"
+}
